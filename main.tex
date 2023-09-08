@@ -1,0 +1,198 @@
+%------------------------
+% Resume Template
+% Author : Joseph Kelly
+%------------------------
+
+\documentclass[letter,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newenvironment{tightcenter}{%
+  \setlength\topsep{0pt}
+  \setlength\parskip{0pt}
+  \begin{center}
+}{%
+  \end{center}
+}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\LARGE Joseph Kelly, BSEE}} & {Highlands Ranch, CO}\\
+\href{mailto:joseph.p.kelly@ieee.org}{Email: joseph.p.kelly@ieee.org} & \href{https://www.linkedin.com/in/jospkelly/}{LinkedIn: ~~linkedin.com/in/jospkelly/}\\
+\href{tel:+19706913304}{Mobile:~~~970-691-3304} & \href{https://github.com/dirt19}{Github: ~~github.com/dirt19}\\
+\end{tabular*}
+%-----------EDUCATION-----------------
+\vspace{-5pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Colorado State University}{Fort Collins, CO}
+      {Bachelor of Science - Electrical Engineering}{2007 - 2012}
+    \resumeSubHeadingListEnd
+%-----------SKILLS SUMMARY-----------------
+\vspace{-5pt}
+\section{Skills Summary}
+{\begin{tightcenter}
+\textbf{10+ Years Software Engineering, 3+ Years Project Management, 2+ Years Supervisor}
+\end{tightcenter}}
+\vspace{-2pt}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, JavaScript, SQL, Bash, PHP, Java, Jenkins Groovy, C++}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~AWS, Atlassian tool suite, VSCode, Docker, git, Jenkins, Ansible}
+	\resumeSubItem{Platforms}{~~~~~~~Linux (AL2, CentOS, Ubuntu, Arch), MS Windows}
+	\resumeSubItem{Managerial}{~~~~~Leadership, Requirements Collection, Communication, Global Team Collaboration}
+        \vspace{-2pt}
+\resumeSubHeadingListEnd
+%-----------Continuing Education-----------------
+\vspace{-5pt}
+\section{Continuing Education}
+\resumeSubHeadingListStart
+\resumeSubItem{Scrum Master}{(2021, ScrumAlliance) Certified ScrumMaster, leading a team using Agile project management}
+\resumeSubItem{Change Management}{(2021, Kotter) Human response, design impact, and leading people with change}
+\vspace{2pt}
+\resumeSubItem{Data Science in Python}{(2019, YouTube) A course in the use of the Pandas library in data analysis}
+\vspace{2pt}
+\resumeSubItem{Applied Cryptography}{(2015, EDX) Online course audit of mathematics and methods of cryptography}
+\vspace{2pt}
+\resumeSubItem{Unified Extensible Firmware Interface (UEFI)}{(2013, Intel) On-site training for UEFI}
+\vspace{2pt}
+\resumeSubItem{Hybrid Disk Drive Technology}{(2012, Seagate Technology) On-site training in disk drive physics, electronics, programming, and operations}
+\resumeSubHeadingListEnd
+
+%-----------Professional Experience------------
+\vspace{-5pt}
+\section{Professional Experience}
+\resumeSubHeadingListStart
+	\resumeSubheading
+        {Trimble, Inc}{Westminster, CO}
+	{Enterprise DevOps Software Engineer}{2020 - 2023}
+	\resumeItemListStart
+		\resumeItem{Scrum Master}{Drive task breakdown, long-term change planning, and facilitate team communications}
+        \resumeItem{Code Signing Solution}{Architected using AWS, Artifactory, and GitHub Actions to receive and sign software that integrated with existing SAML systems and customer pipelines}
+        \resumeItem{Site Reliability}{Employed tools and processes to diagnose, modify, and deploy production Cloud Formation Template changes for AWS-hosted application instances to reduce downtime by 43\%}
+        \resumeItem{Event-driven workflows}{Constructed by creating an AWS Lambda functions to connect various applications}
+	\resumeItemListEnd
+\vspace{5pt}
+    \resumeSubheading
+        {Seagate Technology}{Longmont, CO}
+	{Senior Software Engineer}{2019 - 2020}
+	\resumeItemListStart
+		\resumeItem{Increased testing efficiency and results analysis, reducing test times by 19\%}
+		{Automated test script qualification and integrated results generation into Python based I/O performance scripts}
+		\resumeItem{Reduced report generation times by 80\% with automated pipelines}
+		{Integrated internal Jenkins and Python toolchains to generate product qualification reports for External Applications Engineers}
+		\resumeItem{Assured Customer Test Bed Consistency}
+		{Maintained 60+ CentOS Linux systems utilizing Ansible and WinSSH, wrote and ran custom tests for requested features}
+	\resumeItemListEnd
+\vspace{5pt}
+	\resumeSubheading
+	{Seagate Technology}{Longmont, CO}
+	{Software Engineer}{2013 - 2019}
+	\resumeItemListStart
+		\resumeItem{Global DevOps}
+		{Worked with global firmware quality team on Jenkins-based CI firmware toolchain that handles 1,000+ daily firmware test requests from 400+ developers globally using 100+ test nodes distributed to multiple sites to detect firmware defects earlier in the test and release process}
+		\resumeItem{Global Support for Software Tools and Network}
+		{Integral part of team responsible for management and support of software tools, Linux servers, and network for over 6,000 test systems at 7 sites in 5 countries}
+	\resumeItemListEnd
+\vspace{5pt}
+	\resumeSubheading
+	{Seagate Technology}{Longmont, CO}
+	{Firmware Test Engineer}{2012 - 2013}
+	\resumeItemListStart
+		\resumeItem{Developed Test Plans for Defect Escape Mitigation}
+		{Generated firmware validation plans, protocols, and associated documentation to comply with protocol (SAS / SATA) and customer specifications}
+		\resumeItem{Executed 10 to 30 Test Plans per Week, Detected and Reported Defects}
+		{Collaborated with team to determine root cause analyses; reported internally discovered defects and potential customer issues to Firmware Engineering Project leads using SBM or JIRA}
+	\resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------Awards-----------------
+\vspace{2pt}
+\section{Honors, Awards, \& Certifications}
+\begin{description}[font=$\bullet$]
+\item {(2000 - present) FCC Licensed Amateur Radio Operator: Satellites, PSK31, Repeater Nets: Weather \& Emergency}
+\vspace{-5pt}
+\item {(2004) Boy Scouts of America: Eagle Scout w/ Silver Palm}
+\end{description}
+
+% \vspace{-5pt}
+% \section{Volunteer Experience}
+%   \resumeSubHeadingListStart
+% 	\resumeSubheading
+%     {Knights of Columbus}
+%     {Coordinate and assist in various parish functions}{2006 - Present}
+% \vspace{5pt}
+%     \resumeSubheading
+%     {Neighborhood Watch}{Highlands Ranch, CO}
+%     {Organized events, generated sociability}{2021 - Present}
+% \resumeSubHeadingListEnd
+
+\end{document}
